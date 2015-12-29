@@ -1,0 +1,18 @@
+@page {
+  size: A4;
+}
+
+#champ{display: none;}
+
+#tchat img,
+#tchat .message{
+    position: absolute !important;
+}
+
+#tchat{
+    position: relative;
+    height:25cm;
+    width:19cm;
+    visibility: visible;
+    z-index: 1
+}

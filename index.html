@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="static/print.css" media="print" />
+
+  </head>
+  <body>
+
+    <div class="col-lg-6 col-lg-offset-3 text-center" id="fond">
+        <img  id="gif" src="static/fusee.gif">
+        <h1 id="univers">UNIVERSTCHAT</h1>
+        <p id="userchoice">Choisissez un nom d'utilisateur :</p><input id="user" autocomplete="off" placeholder=""/>
+    </div>
+
+    <div id="tchat">
+        <ul id="messages"></ul>
+    </div>
+
+    <div id="champ">
+        <div class="col-lg-2 col-lg-offset-2 text-right">
+            <select class="" name="" id="languages">
+                <option value='en' selected="selected">en</option>
+                <option value='fr'>fr</option>
+                <option value='es'>es</option>
+                <option value='ru'>ru</option>
+                <option value='zh'>zh</option>
+            </select>
+        </div>
+        <form id='addimage' method="post" enctype="multipart/form-data">
+        <div class="col-lg-4 col-xs-12  text-center" >
+            <input id="m" class="text-center" placeholder="Message" autocomplete="off" />
+        </div>
+        <div class="col-lg-2 col-xs-12" id="localfile_container">
+           <input type='file' id='localfile' accept='image/*' value='Ajouter une image'></input>
+       </div>
+        <div class="col-lg-1 col-xs-12 text-center" >
+            <button class="btn">Send</button>
+        </div>
+
+        </form>
+
+    </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="static/client.js"></script>
+
+  </body>
+</html>

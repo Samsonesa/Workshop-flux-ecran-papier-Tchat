@@ -1,0 +1,245 @@
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121B3A;
+    font-family: 'triplex','Signika';
+    overflow: hidden;
+}
+
+#fond{
+    visibility:visible ;
+    position: absolute;
+    top: 0;
+}
+#gif{
+    width: 30%;
+    top: 50px;
+    left: 300px;
+    position: absolute;
+
+
+}
+#univers{
+    width: 100%;
+    position: relative;
+    margin-top: 35%;
+    font-size: 6em;
+    letter-spacing: 10px;
+    font-family: 'triplex','Signika';
+    font-weight: bold;
+    color: white;
+}
+
+#userchoice{
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-family: 'triplex','Signika';
+    font-weight: bold;
+    color: white;
+}
+
+#user{
+    width: 20%;
+    position: relative;
+    margin-top: 5%;
+    font-size: 2em;
+    font-family: 'triplex','Signika';
+    text-align: center;
+    color: white;
+
+}
+
+#localfile_container {
+    width: 127px;
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #F8F8F8;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/* --------------------------- css Zone Print ------------------------*/
+#tchat{
+    position: relative;
+    margin: auto;
+    height:1132px ;
+    width:800px;
+    visibility: hidden;
+    z-index: -900;
+}
+
+#tchat .message{
+    font-size: 3rem;
+    position: static;
+    font-family: 'triplex','Signika';
+}
+#tchat .text{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20%;
+    max-width: 75%;
+    word-wrap: break-word;
+    z-index: -1000;
+}
+#tchat .user{
+    color: #8ecbf5;
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 2;
+    display: block;
+    white-space: nowrap;
+    font-family: 'triplex','Signika';
+}
+
+#tchat img{
+    position: static;
+    max-width: 75%;
+    z-index: -1000;
+}
+
+ul {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+/* --------------------------- css Zone Html ------------------------*/
+
+
+#chat{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+
+}
+
+#texte{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    visibility: hidden;
+}
+
+#messages{
+    padding-bottom: 200px;
+}
+
+#chat img {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 30px;
+}
+
+li{
+    list-style-type:none;
+    position: relative;
+}
+
+#champ{
+    position: fixed;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    padding: 3em;
+    background-color: white;
+
+}
+
+#languages{
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    position: relative;
+    font-size: 0,5em;
+}
+
+#entrer{
+    margin-top: 0px;
+    position: relative;
+    font-size: 0,25em;
+    color: grey;
+    cursor:pointer;
+}
+
+input {
+     border: 1px solid #999;
+     width: 4em;
+     background-color: #121B3A;
+}
+
+ #localfile {
+     border: 1px solid #999;
+     width: 4em;
+     background-color: white;
+}
+
+input:focus {
+    border-color: #999;
+}
+
+button{
+    color: #FFF;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    padding: 1em;
+}
+
+ a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+
+#m{
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+}
+
+#localfile{
+    width: 100%;
+    border: 1px solid white;
+    vertical-align: middle;
+}
+
+#image {
+    position: fixed;
+    bottom: 60px;
+    background: rgb(130, 224, 255);
+    right: 0;
+    padding: 20px;
+}
+
+.user{
+    color: #8ecbf5;
+    font-size: 1.9em;
+    font-family: 'triplex','Signika';
+}
+
+#chat .message{
+    font-size: 3em;
+    position: relative;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'triplex','Signika';
+}
